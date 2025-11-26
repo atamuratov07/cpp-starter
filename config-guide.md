@@ -221,6 +221,11 @@ vim.cmd("syntax on")
 
 -  save and exit - `:wq`
 
+7. Change the neovim config file location:
+
+-  to check current location run this in terminal `nvim --headless +"echo stdpath('config')" +qa`
+-  add this line to the .bashrc file `export XDG_CONFIG_HOME="$HOME/.config"`
+
 8. Create template file for cpp by running this in Terminal - `nvim ~/.config/nvim/templates/cp_template.cpp`
    Than, paste this template code:
 
@@ -310,5 +315,3 @@ int main() {
    return 0;
 }
 ```
-
-10.
